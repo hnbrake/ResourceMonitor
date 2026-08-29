@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C10000010000000000000001 /* ResourceMonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000020000000000000001 /* ResourceMonitorApp.swift */; };
+		C10000030000000000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000040000000000000001 /* ContentView.swift */; };
+		C10000050000000000000001 /* MetricsSamplerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000060000000000000001 /* MetricsSamplerService.swift */; };
+		C10000360000000000000001 /* DesktopPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000370000000000000001 /* DesktopPanelView.swift */; };
+		C10000380000000000000001 /* MenuBarMetricsImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000390000000000000001 /* MenuBarMetricsImage.swift */; };
+		C10000070000000000000001 /* MetricsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000080000000000000001 /* MetricsModels.swift */; };
+		C10000090000000000000001 /* MetricsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100000A0000000000000001 /* MetricsStore.swift */; };
+		C100000B0000000000000001 /* SystemMetricsSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100000C0000000000000001 /* SystemMetricsSampler.swift */; };
+		C100000D0000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C100000E0000000000000001 /* Assets.xcassets */; };
+		C100000F0000000000000001 /* ResourceMonitorWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000100000000000000001 /* ResourceMonitorWidgetBundle.swift */; };
+		C10000110000000000000001 /* ResourceMonitorWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000120000000000000001 /* ResourceMonitorWidget.swift */; };
+		C10000130000000000000001 /* MetricsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000080000000000000001 /* MetricsModels.swift */; };
+		C10000140000000000000001 /* MetricsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100000A0000000000000001 /* MetricsStore.swift */; };
+		C10000150000000000000001 /* ResourceMonitorWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C10000160000000000000001 /* ResourceMonitorWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C10000350000000000000001 /* SystemMetricsSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100000C0000000000000001 /* SystemMetricsSampler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C10000170000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C10000180000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C10000190000000000000001;
+			remoteInfo = ResourceMonitorWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C100001A0000000000000001 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C10000150000000000000001 /* ResourceMonitorWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C10000020000000000000001 /* ResourceMonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceMonitorApp.swift; sourceTree = "<group>"; };
+		C10000040000000000000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C10000060000000000000001 /* MetricsSamplerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsSamplerService.swift; sourceTree = "<group>"; };
+		C10000370000000000000001 /* DesktopPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopPanelView.swift; sourceTree = "<group>"; };
+		C10000390000000000000001 /* MenuBarMetricsImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarMetricsImage.swift; sourceTree = "<group>"; };
+		C10000080000000000000001 /* MetricsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsModels.swift; sourceTree = "<group>"; };
+		C100000A0000000000000001 /* MetricsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsStore.swift; sourceTree = "<group>"; };
+		C100000C0000000000000001 /* SystemMetricsSampler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemMetricsSampler.swift; sourceTree = "<group>"; };
+		C100000E0000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C10000100000000000000001 /* ResourceMonitorWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceMonitorWidgetBundle.swift; sourceTree = "<group>"; };
+		C10000120000000000000001 /* ResourceMonitorWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceMonitorWidget.swift; sourceTree = "<group>"; };
+		C10000160000000000000001 /* ResourceMonitorWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ResourceMonitorWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C100001B0000000000000001 /* ResourceMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResourceMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C100001C0000000000000001 /* ResourceMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ResourceMonitor.entitlements; sourceTree = "<group>"; };
+		C100001D0000000000000001 /* ResourceMonitorWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ResourceMonitorWidget.entitlements; sourceTree = "<group>"; };
+		C100001E0000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C100001F0000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10000200000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C10000210000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				C10000220000000000000001 /* ResourceMonitor */,
+				C10000230000000000000001 /* ResourceMonitorWidget */,
+				C10000240000000000000001 /* Shared */,
+				C10000250000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C10000220000000000000001 /* ResourceMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				C10000020000000000000001 /* ResourceMonitorApp.swift */,
+				C10000040000000000000001 /* ContentView.swift */,
+				C10000060000000000000001 /* MetricsSamplerService.swift */,
+				C10000370000000000000001 /* DesktopPanelView.swift */,
+				C10000390000000000000001 /* MenuBarMetricsImage.swift */,
+				C100001C0000000000000001 /* ResourceMonitor.entitlements */,
+				C100000E0000000000000001 /* Assets.xcassets */,
+			);
+			path = ResourceMonitor;
+			sourceTree = "<group>";
+		};
+		C10000230000000000000001 /* ResourceMonitorWidget */ = {
+			isa = PBXGroup;
+			children = (
+				C10000100000000000000001 /* ResourceMonitorWidgetBundle.swift */,
+				C10000120000000000000001 /* ResourceMonitorWidget.swift */,
+				C100001D0000000000000001 /* ResourceMonitorWidget.entitlements */,
+				C100001E0000000000000001 /* Info.plist */,
+			);
+			path = ResourceMonitorWidget;
+			sourceTree = "<group>";
+		};
+		C10000240000000000000001 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C10000080000000000000001 /* MetricsModels.swift */,
+				C100000A0000000000000001 /* MetricsStore.swift */,
+				C100000C0000000000000001 /* SystemMetricsSampler.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C10000250000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C100001B0000000000000001 /* ResourceMonitor.app */,
+				C10000160000000000000001 /* ResourceMonitorWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C10000190000000000000001 /* ResourceMonitorWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C100002B0000000000000001 /* Build configuration list for PBXNativeTarget "ResourceMonitorWidgetExtension" */;
+			buildPhases = (
+				C100002C0000000000000001 /* Sources */,
+				C10000200000000000000001 /* Frameworks */,
+				C100002D0000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResourceMonitorWidgetExtension;
+			productName = ResourceMonitorWidgetExtension;
+			productReference = C10000160000000000000001 /* ResourceMonitorWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C10000260000000000000001 /* ResourceMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C10000270000000000000001 /* Build configuration list for PBXNativeTarget "ResourceMonitor" */;
+			buildPhases = (
+				C10000280000000000000001 /* Sources */,
+				C100001F0000000000000001 /* Frameworks */,
+				C10000290000000000000001 /* Resources */,
+				C100001A0000000000000001 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C100002A0000000000000001 /* PBXTargetDependency */,
+			);
+			name = ResourceMonitor;
+			productName = ResourceMonitor;
+			productReference = C100001B0000000000000001 /* ResourceMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C10000180000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C10000190000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					C10000260000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = C100002E0000000000000001 /* Build configuration list for PBXProject "ResourceMonitor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C10000210000000000000001;
+			productRefGroup = C10000250000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C10000260000000000000001 /* ResourceMonitor */,
+				C10000190000000000000001 /* ResourceMonitorWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C10000290000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C100000D0000000000000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C100002D0000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C10000280000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10000010000000000000001 /* ResourceMonitorApp.swift in Sources */,
+				C10000030000000000000001 /* ContentView.swift in Sources */,
+				C10000050000000000000001 /* MetricsSamplerService.swift in Sources */,
+				C10000360000000000000001 /* DesktopPanelView.swift in Sources */,
+				C10000380000000000000001 /* MenuBarMetricsImage.swift in Sources */,
+				C10000070000000000000001 /* MetricsModels.swift in Sources */,
+				C10000090000000000000001 /* MetricsStore.swift in Sources */,
+				C100000B0000000000000001 /* SystemMetricsSampler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C100002C0000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C100000F0000000000000001 /* ResourceMonitorWidgetBundle.swift in Sources */,
+				C10000110000000000000001 /* ResourceMonitorWidget.swift in Sources */,
+				C10000130000000000000001 /* MetricsModels.swift in Sources */,
+				C10000140000000000000001 /* MetricsStore.swift in Sources */,
+				C10000350000000000000001 /* SystemMetricsSampler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C100002A0000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C10000190000000000000001 /* ResourceMonitorWidgetExtension */;
+			targetProxy = C10000170000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C100002F0000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C10000300000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C10000310000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ResourceMonitor/ResourceMonitor.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RA9M6WD55M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hnbrake.ResourceMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C10000320000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ResourceMonitor/ResourceMonitor.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RA9M6WD55M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hnbrake.ResourceMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C10000330000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ResourceMonitorWidget/ResourceMonitorWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RA9M6WD55M;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ResourceMonitorWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hnbrake.ResourceMonitor.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C10000340000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ResourceMonitorWidget/ResourceMonitorWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RA9M6WD55M;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ResourceMonitorWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hnbrake.ResourceMonitor.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C10000270000000000000001 /* Build configuration list for PBXNativeTarget "ResourceMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10000310000000000000001 /* Debug */,
+				C10000320000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C100002B0000000000000001 /* Build configuration list for PBXNativeTarget "ResourceMonitorWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10000330000000000000001 /* Debug */,
+				C10000340000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C100002E0000000000000001 /* Build configuration list for PBXProject "ResourceMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C100002F0000000000000001 /* Debug */,
+				C10000300000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C10000180000000000000001 /* Project object */;
+}

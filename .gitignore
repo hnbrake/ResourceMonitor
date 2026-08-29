@@ -1,0 +1,34 @@
+# macOS / Xcode
+.DS_Store
+**/xcuserdata/
+**/*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+DerivedData/
+build/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift / SPM
+.build/
+.swiftpm/
+Package.resolved
+
+# App support / local metrics caches
+**/Application Support/ResourceMonitor/
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+*~
+.AppleDouble
+.LSOverride
+._*
+
+# Archives
+*.play
+playground.xcworkspace
