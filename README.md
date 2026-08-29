@@ -20,25 +20,6 @@ A lightweight macOS menu bar app that shows live **CPU**, **memory**, and **netw
 - Xcode 15+ (Xcode 27 if you’re on macOS 27)
 - Apple ID for signing
 
-## Getting started
-
-1. Open `ResourceMonitor.xcodeproj` in Xcode.
-2. Select your **Team** under **Signing & Capabilities** for both targets:
-   - `ResourceMonitor`
-   - `ResourceMonitorWidgetExtension`
-3. For both targets, enable **App Groups** and check:
-   ```
-   group.com.hnbrake.ResourceMonitor
-   ```
-   (Or change the group ID in the entitlements / `MetricsStore` to match one you create.)
-4. Product → **Run**.
-
-The app appears in the menu bar. Use **Show Desktop Panel** (or ⌘P) for the floating card.
-
-### Menu bar tip
-
-Hold **⌘** and drag the status item to reposition it. System items like Control Center and the clock stay on the far right and can’t be moved past.
-
 ## Project layout
 
 ```
