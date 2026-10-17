@@ -22,6 +22,7 @@
 		C10000140000000000000001 /* MetricsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100000A0000000000000001 /* MetricsStore.swift */; };
 		C10000150000000000000001 /* ResourceMonitorWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C10000160000000000000001 /* ResourceMonitorWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C10000350000000000000001 /* SystemMetricsSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100000C0000000000000001 /* SystemMetricsSampler.swift */; };
+		C10000400000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C10000410000000000000001 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		C100001C0000000000000001 /* ResourceMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ResourceMonitor.entitlements; sourceTree = "<group>"; };
 		C100001D0000000000000001 /* ResourceMonitorWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ResourceMonitorWidget.entitlements; sourceTree = "<group>"; };
 		C100001E0000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C10000410000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				C10000120000000000000001 /* ResourceMonitorWidget.swift */,
 				C100001D0000000000000001 /* ResourceMonitorWidget.entitlements */,
 				C100001E0000000000000001 /* Info.plist */,
+				C10000410000000000000001 /* Assets.xcassets */,
 			);
 			path = ResourceMonitorWidget;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C10000400000000000000001 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +364,7 @@
 		C10000330000000000000001 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ResourceMonitorWidget/ResourceMonitorWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -384,6 +389,7 @@
 		C10000340000000000000001 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ResourceMonitorWidget/ResourceMonitorWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
